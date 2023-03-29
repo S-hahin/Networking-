@@ -1,0 +1,6 @@
+touch 2.txt
+file="/home/mcet/2.txt"
+echo "shahin" >> $file
+cat $file
+rev $file
+   
