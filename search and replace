@@ -1,0 +1,19 @@
+file.sh
+
+echo "Enter filename:"
+read filename
+echo "Enter the word to search for:"
+read word
+echo "Searched word is:"
+grep "$word" "$filename"
+sed -i 's/apple/cherry/' apple.txt
+echo " "
+echo "replaced content is:"
+cat apple.txt
+
+
+apple.txt
+cherry is a fruit
+cherry is red
+cherry is healthy
+cherry keeps a doctor away
